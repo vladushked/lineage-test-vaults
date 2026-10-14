@@ -1,0 +1,96 @@
+{
+  "family-5.5.1.ged": {
+    "format": "gedcom",
+    "people": 5,
+    "parents": 4,
+    "adoptive": 2,
+    "couples": 1,
+    "godparents": 1,
+    "names": [
+      "John Smith",
+      "Mary Ann Smith (Jones)",
+      "Robert Smith",
+      "Ann Smith",
+      "William Brown"
+    ],
+    "dates": {
+      "John Smith": [
+        "1890?",
+        "1960-02-01"
+      ],
+      "Robert Smith": [
+        "1915-03-07",
+        null
+      ],
+      "Ann Smith": [
+        "1917..1919",
+        null
+      ],
+      "William Brown": [
+        "1915?",
+        "?"
+      ]
+    }
+  },
+  "family-7.0.ged": {
+    "format": "gedcom",
+    "people": 4,
+    "parents": 4,
+    "adoptive": 0,
+    "couples": 1,
+    "godparents": 0,
+    "names": [
+      "Озеров Иван Петрович",
+      "Соколова Мария Андреевна",
+      "Озеров Николай Иванович",
+      "Озерова Вера Ивановна"
+    ],
+    "dates": {
+      "Озеров Иван Петрович": [
+        "1862-04-12",
+        "1931"
+      ]
+    }
+  },
+  "ansi-1251.ged": {
+    "format": "gedcom",
+    "people": 3,
+    "parents": 2,
+    "couples": 1,
+    "names": [
+      "Кузнецов Пётр Сергеевич",
+      "Кузнецова Анна Ивановна",
+      "Кузнецова Ёлка Петровна"
+    ]
+  },
+  "ansi-1252.ged": {
+    "format": "gedcom",
+    "people": 3,
+    "parents": 2,
+    "couples": 1,
+    "names": [
+      "René Müller",
+      "Françoise Lefèvre",
+      "Zoë Müller"
+    ]
+  },
+  "family.at5": {
+    "format": "drevo-zhizni",
+    "people": 4,
+    "parents": 3,
+    "adoptive": 1,
+    "couples": 1,
+    "names": [
+      "Иванов Иван Петрович",
+      "Иванова Мария Сергеевна (Смирнова)",
+      "Иванов Пётр Иванович",
+      "Орлов Олег Олегович"
+    ]
+  },
+  "broken.ged": {
+    "error": true
+  },
+  "empty.ged": {
+    "error": true
+  }
+}

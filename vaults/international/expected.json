@@ -1,0 +1,213 @@
+{
+  "vault": "international",
+  "scheme": "western",
+  "self": "Smith/Emma Smith 1985-.md",
+  "people": {
+    "count": 22,
+    "paths": [
+      "Arabic/Abdullah Mohammed 1980-.md",
+      "Arabic/Mohammed Ali 1950-.md",
+      "García/Gabriel José García Márquez 1927-2014.md",
+      "García/Mercedes Barcha Pardo 1932-2020.md",
+      "García/Rodrigo García Barcha 1959-.md",
+      "Hebrew/David Ben-Gurion 1886-1973.md",
+      "Iceland/Guðrún Jónsdóttir 1960-.md",
+      "Iceland/Jón Sigurðsson 1930-2000.md",
+      "Iceland/Sigurður Jónsson 1900-1970.md",
+      "Kim/Kim Min-jun 1960-.md",
+      "Kim/Park Ji-woo 1962-.md",
+      "Kim/김 서연 1990-.md",
+      "Kovács/Kovács János 1940-.md",
+      "Smith/Ann Brown (Smith) 1917-?.md",
+      "Smith/Aristotle 1920-1999.md",
+      "Smith/Emma Smith 1985-.md",
+      "Smith/James Smith 1950-.md",
+      "Smith/John Smith 1890-1960.md",
+      "Smith/Mary Ann Smith (Jones) 1895-1970.md",
+      "Smith/Robert Smith 1915-1990.md",
+      "Smith/William Brown 1915-1980.md",
+      "Wang/王 小明 1955-.md"
+    ]
+  },
+  "edges": {
+    "count": 17,
+    "list": [
+      "parent:Arabic/Mohammed Ali 1950-.md:Arabic/Abdullah Mohammed 1980-.md",
+      "parent:García/Gabriel José García Márquez 1927-2014.md:García/Rodrigo García Barcha 1959-.md",
+      "parent:García/Mercedes Barcha Pardo 1932-2020.md:García/Rodrigo García Barcha 1959-.md",
+      "parent:Iceland/Jón Sigurðsson 1930-2000.md:Iceland/Guðrún Jónsdóttir 1960-.md",
+      "parent:Iceland/Sigurður Jónsson 1900-1970.md:Iceland/Jón Sigurðsson 1930-2000.md",
+      "parent:Kim/Kim Min-jun 1960-.md:Kim/김 서연 1990-.md",
+      "parent:Kim/Park Ji-woo 1962-.md:Kim/김 서연 1990-.md",
+      "parent:Smith/James Smith 1950-.md:Smith/Emma Smith 1985-.md",
+      "parent:Smith/John Smith 1890-1960.md:Smith/Ann Brown (Smith) 1917-?.md",
+      "parent:Smith/John Smith 1890-1960.md:Smith/Robert Smith 1915-1990.md",
+      "parent:Smith/Mary Ann Smith (Jones) 1895-1970.md:Smith/Ann Brown (Smith) 1917-?.md",
+      "parent:Smith/Mary Ann Smith (Jones) 1895-1970.md:Smith/Robert Smith 1915-1990.md",
+      "parent:Smith/Robert Smith 1915-1990.md:Smith/James Smith 1950-.md",
+      "spouse:García/Gabriel José García Márquez 1927-2014.md:García/Mercedes Barcha Pardo 1932-2020.md",
+      "spouse:Kim/Kim Min-jun 1960-.md:Kim/Park Ji-woo 1962-.md",
+      "spouse:Smith/Ann Brown (Smith) 1917-?.md:Smith/William Brown 1915-1980.md",
+      "spouse:Smith/John Smith 1890-1960.md:Smith/Mary Ann Smith (Jones) 1895-1970.md"
+    ],
+    "ambiguous": []
+  },
+  "issues": [],
+  "namedByTemplate": [
+    "García/Gabriel José García Márquez 1927-2014.md",
+    "García/Mercedes Barcha Pardo 1932-2020.md",
+    "García/Rodrigo García Barcha 1959-.md",
+    "Iceland/Guðrún Jónsdóttir 1960-.md",
+    "Iceland/Jón Sigurðsson 1930-2000.md",
+    "Iceland/Sigurður Jónsson 1900-1970.md",
+    "Smith/Ann Brown (Smith) 1917-?.md",
+    "Smith/Aristotle 1920-1999.md",
+    "Smith/Emma Smith 1985-.md",
+    "Smith/James Smith 1950-.md",
+    "Smith/John Smith 1890-1960.md",
+    "Smith/Mary Ann Smith (Jones) 1895-1970.md",
+    "Smith/Robert Smith 1915-1990.md",
+    "Smith/William Brown 1915-1980.md"
+  ],
+  "labels": {
+    "Smith/John Smith 1890-1960.md": "1890?–1960",
+    "Smith/Mary Ann Smith (Jones) 1895-1970.md": "<1895–>1970",
+    "Smith/Robert Smith 1915-1990.md": "1915–1990s",
+    "Smith/Ann Brown (Smith) 1917-?.md": "1917?–?",
+    "Smith/Emma Smith 1985-.md": "b. 1985",
+    "Smith/Aristotle 1920-1999.md": "1920–1999"
+  },
+  "clarify": {
+    "Smith/Emma Smith 1985-.md": [
+      "second parent",
+      "children"
+    ],
+    "Iceland/Guðrún Jónsdóttir 1960-.md": [
+      "surname",
+      "second parent",
+      "children",
+      "photo"
+    ],
+    "Smith/Aristotle 1920-1999.md": [
+      "surname",
+      "parents",
+      "children",
+      "photo"
+    ]
+  },
+  "routes": [
+    {
+      "from": "Smith/Emma Smith 1985-.md",
+      "to": "Smith/Robert Smith 1915-1990.md",
+      "ru": "дедушка",
+      "en": "grandfather",
+      "steps": 2
+    },
+    {
+      "from": "Smith/Emma Smith 1985-.md",
+      "to": "Smith/Ann Brown (Smith) 1917-?.md",
+      "ru": "двоюродная бабушка",
+      "en": "great-aunt",
+      "steps": 4
+    },
+    {
+      "from": "Smith/Emma Smith 1985-.md",
+      "to": "Smith/William Brown 1915-1980.md",
+      "ru": "муж двоюродной бабушки",
+      "en": "great-aunt's husband",
+      "steps": 5
+    },
+    {
+      "from": "García/Rodrigo García Barcha 1959-.md",
+      "to": "García/Mercedes Barcha Pardo 1932-2020.md",
+      "ru": "мать",
+      "en": "mother",
+      "steps": 1
+    }
+  ],
+  "roots": [
+    {
+      "from": [
+        "Smith/Emma Smith 1985-.md"
+      ],
+      "ancestors": 4,
+      "oldest": [
+        "Smith/John Smith 1890-1960.md",
+        "Smith/Mary Ann Smith (Jones) 1895-1970.md"
+      ]
+    }
+  ],
+  "hints": [
+    {
+      "scheme": "russian",
+      "sex": "female",
+      "father": {
+        "surname": "Озеров",
+        "given_name": "Сергей"
+      },
+      "hints": {
+        "surname": "Озерова",
+        "given_name": "",
+        "patronymic": "Сергеевна"
+      }
+    },
+    {
+      "scheme": "western",
+      "sex": "female",
+      "father": {
+        "surname": "Smith",
+        "given_name": "John"
+      },
+      "husband": {
+        "surname": "Brown"
+      },
+      "hints": {
+        "surname": "Smith",
+        "given_name": "",
+        "patronymic": ""
+      }
+    },
+    {
+      "scheme": "spanish",
+      "sex": "male",
+      "father": {
+        "surname": "García Márquez",
+        "given_name": "Gabriel"
+      },
+      "mother": {
+        "surname": "Barcha Pardo"
+      },
+      "hints": {
+        "surname": "García Barcha",
+        "given_name": "",
+        "patronymic": ""
+      }
+    },
+    {
+      "scheme": "eastern",
+      "sex": "female",
+      "father": {
+        "surname": "Kim",
+        "given_name": "Min-jun"
+      },
+      "hints": {
+        "surname": "Kim",
+        "given_name": "",
+        "patronymic": ""
+      }
+    },
+    {
+      "scheme": "icelandic",
+      "sex": "female",
+      "father": {
+        "given_name": "Jón",
+        "patronymic": "Sigurðsson"
+      },
+      "hints": {
+        "surname": "",
+        "given_name": "",
+        "patronymic": "Jónsdóttir"
+      }
+    }
+  ]
+}

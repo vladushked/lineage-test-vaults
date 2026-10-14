@@ -1,0 +1,65 @@
+0 HEAD
+1 SOUR TestTree
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME John /Smith/
+2 GIVN John
+2 SURN Smith
+1 SEX M
+1 BIRT
+2 DATE ABT 1890
+2 PLAC Leeds, England
+1 DEAT
+2 DATE 1 FEB 1960
+1 OCCU Miner
+1 FAMS @F1@
+0 @I2@ INDI
+1 NAME Mary Ann /Jones/
+1 NAME Mary Ann /Smith/
+2 TYPE married
+1 SEX F
+1 BIRT
+2 DATE BEF 1895
+1 FAMS @F1@
+1 NOTE Kept a diary from 1912.
+2 CONT It is lost.
+0 @I3@ INDI
+1 NAME Robert /Smith/
+1 SEX M
+1 BIRT
+2 DATE 7 MAR 1915
+1 EMIG
+2 DATE 1948
+2 PLAC Canada
+1 FAMC @F1@
+1 SOUR @S1@
+2 PAGE p. 12
+0 @I4@ INDI
+1 NAME Ann /Smith/
+1 SEX F
+1 BIRT
+2 DATE BET 1917 AND 1919
+1 FAMC @F1@
+2 PEDI adopted
+1 ASSO @I5@
+2 RELA Godparent
+0 @I5@ INDI
+1 NAME William /Brown/
+1 SEX M
+1 BIRT
+2 DATE CAL 1915
+1 DEAT Y
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+1 MARR
+2 DATE 12 JUN 1913
+2 PLAC York
+0 @S1@ SOUR
+1 TITL Parish register of York
+0 TRLR

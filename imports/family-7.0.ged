@@ -1,0 +1,45 @@
+﻿0 HEAD
+1 GEDC
+2 VERS 7.0
+1 SOUR TestTree7
+0 @I1@ INDI
+1 NAME Иван Петрович /Озеров/
+1 SEX M
+1 BIRT
+2 DATE JULIAN 12 APR 1862
+1 DEAT
+2 DATE 1931
+1 FAMS @F1@
+1 RELI православный
+1 CAST крестьянин
+0 @I2@ INDI
+1 NAME Мария Андреевна /Соколова/
+1 SEX F
+1 BIRT
+2 DATE 1866
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Николай Иванович /Озеров/
+1 SEX M
+1 BIRT
+2 DATE 1890
+1 FAMC @F1@
+1 SNOTE @N1@
+1 _MILT
+2 DATE 1914
+2 PLAC Западный фронт
+0 @I4@ INDI
+1 NAME Вера Ивановна /Озерова/
+1 SEX F
+1 BIRT
+2 DATE 1893
+1 FAMC @F1@
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+1 MARR
+2 DATE 1888
+0 @N1@ SNOTE Учитель сельской школы.
+0 TRLR

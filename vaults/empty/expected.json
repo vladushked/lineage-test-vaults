@@ -1,0 +1,20 @@
+{
+  "vault": "empty",
+  "scheme": "russian",
+  "self": null,
+  "people": {
+    "count": 0,
+    "paths": []
+  },
+  "edges": {
+    "count": 0,
+    "list": [],
+    "ambiguous": []
+  },
+  "issues": [],
+  "namedByTemplate": [],
+  "labels": {},
+  "clarify": {},
+  "routes": [],
+  "roots": []
+}
