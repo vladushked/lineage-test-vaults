@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Generated test vaults for the Lineage Graph Obsidian plugin: fictional people only.",
+  "description": "Generated test vaults for the Genealogy Graph Obsidian plugin: fictional people only.",
   "scripts": {
     "generate": "node generate/index.mjs",
     "check": "node generate/index.mjs --check"

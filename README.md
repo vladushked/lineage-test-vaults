@@ -1,8 +1,8 @@
-# Lineage Graph test vaults
+# Genealogy Graph test vaults
 
-Generated Obsidian vaults for testing the [Lineage Graph](https://github.com/vladushked/obsidian-lineage-graph) plugin. **All people are fictional**; any resemblance is accidental.
+Generated Obsidian vaults for testing the [Genealogy Graph](https://github.com/vladushked/genealogy-graph) plugin. **All people are fictional**; any resemblance is accidental.
 
-The plugin checks this repository out as the submodule `test/fixtures` and runs its vault and UI tests on it (see the plugin's `TESTING.md`). Every vault can also be opened by hand in Obsidian («Open folder as vault»): the plugin settings are prepared in `.obsidian/plugins/obsidian-lineage-graph/data.json`; copy or link a build of the plugin into that folder.
+The plugin checks this repository out as the submodule `test/fixtures` and runs its vault and UI tests on it (see the plugin's `TESTING.md`). Every vault can also be opened by hand in Obsidian («Open folder as vault»): the plugin settings are prepared in `.obsidian/plugins/genealogy-graph/data.json`; copy or link a build of the plugin into that folder.
 
 ```sh
 npm ci

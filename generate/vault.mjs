@@ -133,12 +133,12 @@ export class Vault {
     for (const name of this.attachments) fs.copyFileSync(path.join(assetsDir, name), path.join(outDir, 'attachments', name));
 
     const obsidian = path.join(outDir, '.obsidian');
-    fs.mkdirSync(path.join(obsidian, 'plugins', 'obsidian-lineage-graph'), { recursive: true });
+    fs.mkdirSync(path.join(obsidian, 'plugins', 'genealogy-graph'), { recursive: true });
     fs.writeFileSync(path.join(obsidian, 'app.json'), `${JSON.stringify({ alwaysUpdateLinks: true, attachmentFolderPath: 'attachments' }, null, 2)}\n`);
-    fs.writeFileSync(path.join(obsidian, 'community-plugins.json'), '[\n  "obsidian-lineage-graph"\n]\n');
+    fs.writeFileSync(path.join(obsidian, 'community-plugins.json'), '[\n  "genealogy-graph"\n]\n');
     const settings = { ...this.settings };
     if (settings.self) { settings.selfPersonId = this.path(settings.self); delete settings.self; }
-    fs.writeFileSync(path.join(obsidian, 'plugins', 'obsidian-lineage-graph', 'data.json'), `${JSON.stringify(settings, null, 2)}\n`);
+    fs.writeFileSync(path.join(obsidian, 'plugins', 'genealogy-graph', 'data.json'), `${JSON.stringify(settings, null, 2)}\n`);
     fs.writeFileSync(path.join(outDir, 'expected.json'), `${JSON.stringify(this.expected(), null, 2)}\n`);
   }
 
