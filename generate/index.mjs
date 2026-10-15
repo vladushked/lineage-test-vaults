@@ -10,13 +10,14 @@ import { writeImports } from './imports.mjs';
 import { international } from './international.mjs';
 import { scale } from './scale.mjs';
 import { scenarios } from './scenarios.mjs';
+import { showcase } from './showcase.mjs';
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const check = process.argv.includes('--check');
 const out = check ? fs.mkdtempSync(path.join(os.tmpdir(), 'lineage-test-vaults-')) : root;
 const assets = path.join(root, 'assets', 'attachments');
 
-const vaults = [scenarios(), international(), scale(500), scale(1000), empty()];
+const vaults = [scenarios(), international(), scale(500), scale(1000), empty(), showcase()];
 for (const vault of vaults) {
   vault.write(path.join(out, 'vaults', vault.name), assets);
   const expected = vault.expected();

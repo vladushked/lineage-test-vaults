@@ -22,6 +22,7 @@ Each vault has `expected.json`: what the plugin should find there, written by th
 | `international` | Western (English dates), Spanish (two surnames), Korean and Chinese (surname first), Hungarian, Icelandic (patronymics), Hebrew and Arabic names, a person without a surname. Opens in English with the Western name scheme. |
 | `scale-500`, `scale-1000` | Large generated families for speed checks. |
 | `empty` | No people yet. |
+| `showcase` | The Carter family over six generations, in English: stories, places, occupations, a second marriage, an adoption, a hypothesis, drawn silhouette portraits. The plugin records its README GIF and directory screenshots here. |
 
 ## Import files
 
